@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../starbucksapp.iml" filepath="$PROJECT_DIR$/../starbucksapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starbucks-app.iml" filepath="$PROJECT_DIR$/starbucks-app.iml" />
     </modules>
   </component>
 </project>
