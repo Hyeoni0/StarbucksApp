@@ -1,0 +1,42 @@
+.header {
+  background: #f6f5ef;
+  border-bottom: 1px solid #e5e5e5;
+  height: 69px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+@media screen and (min-width: 961px) {
+  .tablet_gnb_wrap {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 660px) {
+  .tablet_gnb_wrap {
+    background: #f6f5ef;
+    border-bottom: 1px solid #e5e5e5;
+    height: 69px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 960px) {
+  .tablet_gnb_wrap {
+    background: #f6f5ef;
+    border-bottom: 1px solid #e5e5e5;
+    height: 69px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+}
