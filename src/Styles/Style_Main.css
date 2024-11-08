@@ -1,0 +1,212 @@
+@charset 'utf-8';
+
+#mainBnr { overflow:hidden; padding:0; position:relative; }
+.main_visual_bnr { left:0; position:absolute; top:0; width:100%; z-index:7; }
+.main_visual_bxslider li { position:relative; width:100%; }
+.main_visual_bxslider li span { position:absolute; }
+.main_visual_bxslider li span a,
+.main_ani_wrap a { border:2px solid #222; border-radius:3px; color:#222; display:block; position:absolute; text-align:center; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.main_ani_wrap a { opacity:0; }
+.main_visual_bxslider li span a:hover,
+.main_ani_wrap a:hover { background:#222; color:#fff; }
+.main_visual1 { display:block; position:absolute; top:0; left:0; width:100%; }
+
+.main_ani_visual_bg { background:url("Assets/Images/Main/main_ani_visual_bg.jpg") center top; }
+.main_ani_wrap { height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+.main_ani_txt1 { background:url("Assets/Images/Main/main_ani_txt1.png") no-repeat; background-size:100% auto; height:154px; left:-200px; opacity:0; position:absolute; top:234px; width:274px; z-index:2; }
+.main_ani_txt2 { background:url("Assets/Images/Main/main_ani_txt2.png") no-repeat; background-size:100% auto; height:48px; left:-200px; opacity:0; position:absolute; top:411px; width:237px; z-index:2; }
+.main_ani_cofcup3 { background:url("Assets/Images/Main/main_ani_cofcup3.png") no-repeat; background-size:100% auto; height:274px; opacity:0; position:absolute; right:479px; top:-161px; width:203px; z-index:2; }
+.main_ani_apple { background:url("Assets/Images/Main/main_ani_apple.png") no-repeat; background-size:100% auto; height:93px; opacity:0; position:absolute; right:403px; top:347px; width:106px; z-index:3; }
+.main_ani_lemon { background:url("Assets/Images/Main/main_ani_lemon.png") no-repeat; background-size:100% auto; height:75px; opacity:0; position:absolute; right:566px; top:510px; width:102px; z-index:4; }
+.main_ani_cofcup2 { background:url("Assets/Images/Main/main_ani_cofcup2.png") no-repeat; background-size:100% auto; height:324px; opacity:0; position:absolute; right:564px; top:-200px; width:253px; z-index:5; }
+.main_ani_cofcup1 { background:url("Assets/Images/Main/main_ani_cofcup1.png") no-repeat; background-size:100% auto; height:601px; left:894px; opacity:0; position:absolute; top:-472px; width:357px; z-index:6; }
+.main_ani_cofbean { background:url("Assets/Images/Main/main_ani_cofbean.png") no-repeat; background-size:100% auto; height:119px; left:815px; opacity:0; position:absolute; top:516px; width:81px; z-index:6; }
+.main_ani_honey { background:url("Assets/Images/Main/main_ani_honey.png") no-repeat; background-size:100% auto; height:111px; left:1013px; position:absolute; top:263px; width:73px; z-index:7; }
+
+.main_autumn_ani_bg { background:url("Assets/Images/Main/autumn/aumn_bg.jpg") center top; }
+.main_autumn_ani_wrap { height:766px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+.autumn_txt1 { background:url("Assets/Images/Main/autumn/autumn_txt1.png") no-repeat; background-size:100% auto; height:34px; left:-466px; opacity:0; filter:alpha(opacity=0); position:absolute; top:171px; width:370px; z-index:1; }
+.autumn_txt2 { background:url("Assets/Images/Main/autumn/autumn_txt2.png") no-repeat; background-size:100% auto; height:58px; left:-594px; opacity:0; filter:alpha(opacity=0); position:absolute; top:233px; width:440px; z-index:2; }
+
+.main_autumn_ani_wrap a.btn_see_detail { border:2px solid #fff; border-radius:5px; color:#fff; display:block; font-size:14px; height:34px; left:723px; line-height:34px; opacity:0; filter:alpha(opacity=0); position:absolute; text-align:center; top:329px; width:121px; z-index:3; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s;  }
+.main_autumn_ani_wrap a.btn_see_detail:hover { background:#fff; color:#222; font-weight:bold; }
+
+.autumn_cup1 { background:url("Assets/Images/Main/autumn/autumn_cup1.png") no-repeat; background-size:100% auto; height:420px; opacity:0; filter:alpha(opacity=0); position:absolute; right:620px; top:90px; width:270px; z-index:4; }
+.autumn_cup2 { background:url("Assets/Images/Main/autumn/autumn_cup2.png") no-repeat; background-size:100% auto; height:360px; opacity:0; filter:alpha(opacity=0); position:absolute; right:265px; top:240px; width:500px; z-index:5; }
+.autumn_bev_ttl { background:url("Assets/Images/Main/autumn/autumn_bev_ttl.png") no-repeat; background-size:100% auto; height:61px; opacity:0; filter:alpha(opacity=0); position:absolute; right:470px; top:142px; width:132px; z-index:6; }
+
+.line_notice { position:relative; width:100%; }
+.line_notice_left { background:#111; left:0; position:absolute; top:0; }
+.line_notice_right { background:#f6f5ef; position:absolute; right:0; top:0; }
+.line_notice_bg { position:absolute; top:0; }
+
+.line_notice_bgl { float:left; }
+
+.line_notice_inner { float:left; }
+.line_notice_inner_l { float:left; position:relative; }
+.line_notice_inner_l span.icon_speaker { background:url("Assets/Images/Common/icon_speaker.png"); height:13px; left:0; position:absolute; top:10px; width:14px; }
+.line_notice_inner_l span.notice_ttl { background:url("Assets/Images/Common/notice_ttl.png"); background-size:65px auto; height:17px; left:0; overflow:hidden; position:absolute; text-indent:-20000px; width:65px; }
+.line_notice_inner_l span.notice_area { position:absolute; }
+.line_notice_inner_l span.notice_area a { color:#fff; display:block; height:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%; }
+
+/* 보도자료 추가 */
+.line_notice_inner_l dt.notice_ttl { background:url("Assets/Images/Common/notice_ttl.png"); background-size:65px auto; height:17px; left:0; top:10px; overflow:hidden; position:absolute; text-indent:-20000px; width:65px; }
+.line_notice_inner_l dd { position:absolute; left:65px; top:9px; width:520px; height:24px; text-indent:15px; overflow:hidden; }
+.line_notice_inner_l dd li { height:24px; line-height:24px; }
+.line_notice_inner_l dd a { color:#fff; display:block; height:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%; font-size:14px; }
+/* 보도자료 추가 end */
+
+.line_notice_inner_r { float:right; position:relative; }
+.line_notice_inner_r span { background:url("Assets/Images/Common/btn_notice_plus.png") 0 0 no-repeat; background-size:100% auto; position:absolute; }
+.line_notice_inner_r span a { color:#c19d55; display:block; height:100%; overflow:hidden; text-indent:-20000px; width:100%; }
+
+.line_notice_bgr { float:right; position:relative; z-index:10; }
+.line_notice_bgr a { display:block; position:absolute; }
+.line_notice_bgr a p.prom_ttl { background:url("Assets/Images/Common/prom_ttl_b.png") no-repeat; overflow:hidden; position:absolute; text-indent:-20000px; }
+.line_notice_bgr a span.btn_prom_arrow { background:url("Assets/Images/Common/btn_prom_arrow.png"); overflow:hidden; position:absolute; text-indent:-20000px; }
+.line_notice_bgr a span.btn_prom { overflow:hidden; position:absolute; /*text-indent:-20000px;*/ }
+
+.main_layer_bnr { height:523px; left:50%; margin-left:-576px; opacity:0; filter:alpha(opacity=0); position:absolute; top:-523px; width:1153px; z-index:7; }
+.main_layer_bnr_wbg { background:#fff; height:523px; left:50%; margin-left:-550px; position:absolute; top:0; width:1100px; z-index:1; }
+.main_layer_bnr_wbg p.btn_main_bnr_close { height:26px; position:absolute; right:28px; top:25px; width:27px; z-index:2; }
+.main_layer_bnr_wbg p.btn_main_bnr_close a { background:url("Assets/Images/Main/btn_main_bnr_close.gif"); display:block; height:100%; overflow:hidden; text-indent:-20000px; width:100%; }
+.main_layer_bnr_slide { height:498px; left:50%; margin-left:-521px; position:absolute; top:25px; width:1043px; }
+.main_layer_bnr_slide div.bx-viewport { height:327px; }
+.main_layer_thumbs { border-top:1px solid #d5d5d5; bottom:0; left:50%; margin-left:-520px; padding:20px 0 25px 0; position:absolute; width:1040px; }
+.main_layer_thumbs ul { margin-left:-13px; width:1050px; }
+.main_layer_thumbs ul li { float:left; margin-left:15px; }
+.main_layer_thumbs ul li a { border:1px solid #e2e2e2; display:block; margin:-1px; }
+.main_layer_thumbs ul li a.active { background:#ac8432; border:none; height:105px; margin:0; overflow:hidden; width:195px; }
+.main_layer_thumbs ul li a.active img { height:95px; margin:5px 0 0 5px; width:185px; }
+
+.main_layer_bnr div.bx-wrapper a.bx-prev { background:url("Assets/Images/Main/btn_main_prom_arrow.png") no-repeat 0 0; height:48px; left:-56px; top:203px; width:48px; }
+.main_layer_bnr div.bx-wrapper a.bx-next { background:url("Assets/Images/Main/btn_main_prom_arrow.png") no-repeat -48px 0; height:48px; right:-54px; top:203px; width:48px; }
+
+.main_prom_bnr { display:none; background:#f6f5ef; border-top:1px solid #f6f5ef; position:relative; width:100%; z-index:10; }
+.main_prom_bnr_swiper { left:50%; position:relative; text-align:center; }
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider { margin-left:135px; }
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider li { opacity:0.4; filter:alpha(opacity=40); position:relative; }
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider li img,
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider li a { position:relative; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider li a { border:2px solid #222; border-radius:3px; color:#222; display:block; font-size:14px; height:34px; line-height:34px; margin:-50px auto 0; text-align:center; width:121px; }
+.main_prom_bnr_swiper div.bx-wrapper ul.main_prom_bxslider li a:hover { background:#222; color:#fff; border-radius:3px; font-weight:bold; }
+p.bnr_swiper_left_mask { height:553px; left:0; position:absolute; top:0; width:131px; z-index:11; }
+p.bnr_swiper_right_mask { height:553px; right:0; position:absolute; top:0; width:131px; z-index:11; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager { top:35px; left:51.5%; height:12px; padding:0; text-align:left; width:30%; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-has-controls-auto { @height:64px; position:relative; width:100%; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-pager.bx-default-pager a { background:url("Assets/Images/Common/footer_award_pager.png") -13px 0; display:block; height:12px; margin:0 5px; width:13px; }
+.main_prom_bnr_swiper div.bx-wrapper .bx-pager.bx-default-pager a.active { background:url("Assets/Images/Common/footer_award_pager.png") 0 0; display:block; height:12px; width:13px; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto { text-align:center; }
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-start { background:url("Assets/Images/Common/footer_award_play.png") -9px 0 no-repeat; display:block; height:12px; margin:0; outline:0; text-indent:-20000px; width:9px; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-start:hover,
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-start.active { background-position:-9px 0; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-stop { background:url("Assets/Images/Common/footer_award_play.png") 0 0 no-repeat; display:block; height:12px; margin:0; outline:0; text-indent:-20000px; width:9px; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls-auto .bx-stop.active { background-position:0 0; }
+
+.main_prom_bnr_swiper div.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto { left:50%; position:absolute; top:35px; width:9px; }
+.stopShow { background:url("Assets/Images/Common/footer_award_play.png") 0 0 no-repeat; display:block; height:12px; margin:0; outline:0; text-indent:-20000px; width:9px; }
+
+.active_slide { opacity:1 !important; filter:alpha(opacity=100) !important; }
+
+.line_reward_wrap { position:relative; width:100%; }
+.line_reward_wrap_l { background:#272727; left:0; position:absolute; top:0; width:50%; }
+.line_reward_wrap_r { background:#d6c798; position:absolute; right:0; top:0; width:50%; }
+.line_reward { background:#d6c798; position:relative; }
+.line_reward_l { background:#272727; left:0; position:absolute; top:0; }
+.reward_star_bg { background:url("Assets/Images/Main/reward_star_bg_w.png") center no-repeat; position:absolute; top:0; z-index:5; }
+.reward_star_bg img { position:absolute; }
+.line_reward_r { background:#d6c798; position:absolute; right:0; top:0; }
+.reward_texbg { background:url("Assets/Images/Main/reward_texbg.jpg") right bottom no-repeat; position:absolute; top:0; z-index:4; }
+.reward_texbg img { position:absolute; }
+.reward_btn { position:absolute; z-index:5; }
+.reward_btn ul li { border:2px solid #222; border-radius:3px; float:left; }
+.reward_btn ul li a { display:block; height:100%; text-align:center; width:100%; }
+.reward_btn ul li.reward_memjoin a { background:#222; color:#fff; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.reward_btn ul li.reward_memjoin a:hover { background:transparent; color:#222; }
+.reward_btn ul li.reward_login a { background:transparent; color:#222; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.reward_btn ul li.reward_login a:hover { background:#222; color:#fff; }
+
+/* 메인 스타벅스 리워드 리뉴얼 */
+.new-rewards_wrap {padding-top: 30px; padding-bottom: 40px; background-color: #1e3932;}
+.new-rewards_inner {max-width: 1080px; margin: 0 auto;}
+.new-rewards_inner:after {content:""; display: block; clear: both;}
+.new-rewards_inner .pc-br,
+.new-rewards_inner .mobile-br {display: none;}
+
+.new-rewards_logo {float: left; width: 16.3%; margin-left: 40px; margin-right: 40px; text-align: center;}
+.new-rewards_logo img {width: 176px;}
+
+.new-rewards_conts {box-sizing: border-box; float: left; width: calc(83.7% - 80px); padding-right: 30px; color: #fff; letter-spacing: 0.5px;}
+
+.new-rewards_conts .info-cont {position: relative; margin-bottom: 22px; border-bottom: 1px solid #4b615b;}
+.new-rewards_conts .info-cont_txt {margin-bottom: 12px;}
+.new-rewards_conts .info-cont_txt h2 {line-height: 1.4; margin-bottom: 12px; font-size: 26px; font-weight: normal;}
+.new-rewards_conts .info-cont_txt p {line-height: 1.4; font-size: 17px;}
+.new-rewards_conts .btn-signin_group {position: absolute; bottom: 20px; right: 0; font-size: 0;}
+.new-rewards_conts .btn-signin_group a {box-sizing: border-box; display: inline-block; height: 38px; line-height: 36px; padding-left: 21.4px; padding-right: 21.4px; font-size: 14px; color: #fff; border-radius: 5px; cursor: pointer;} /* 240412 수정 */
+.new-rewards_conts .btn-signin_join {background-color: #00704a; border: 2px solid #00704a;}
+.new-rewards_conts .btn-signin_login {margin-left: 9px; background-color: transparent; border: 2px solid #fff;}
+
+.new-rewards_conts .gift-cont {position: relative;}
+.new-rewards_conts .gift-cont_txt p {line-height: 1.4; font-size: 14px;}
+.new-rewards_conts .btn_egift {box-sizing: border-box; position: absolute; top: 0; right: 0; width: 193px; height: 38px; line-height: 36px; text-align: center; font-size: 14px; border: 2px solid #fff; border-radius: 5px;} /* 240412 수정 */
+.new-rewards_conts .btn_egift a {display: block; width: 100%; height: 100%; color: #fff;}
+
+/* .new-rewards_conts .btn-signin_group a:hover,
+.new-rewards_conts .btn-signin_group a:active,
+.new-rewards_conts .btn-signin_group a:focus,
+.new-rewards_conts .btn_egift a:hover,
+.new-rewards_conts .btn_egift a:active,
+.new-rewards_conts .btn_egift a:focus {text-decoration: none; outline: none;} */
+/* //메인 스타벅스 리워드 리뉴얼 */
+
+/* 160628 추가 */
+.reward_egift { position:absolute; top:0; z-index:4; }
+.reward_egift img { position:absolute; }
+.reward_egift_btn { position:absolute; z-index:5; }
+.reward_egift_btn ul li { border:2px solid #222; border-radius:3px; }
+.reward_egift_btn ul li a { display:block; height:100%; text-align:center; width:100%; background:transparent; color:#222; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.reward_egift_btn ul li a:hover { background:#222; color:#fff; }
+/* 160628 추가 end */
+
+/* 150518 문진욱 - 수정 */
+
+#center_MSR { display:none; background:#111; height:170px; width:100%; position:relative; }
+
+.center_msr_wrap { position:absolute; left:50%; }
+.center_msr_wrap div.user_greet { float:left; }
+.center_msr_wrap div.user_pic_area { float:left; position:relative; }
+.center_msr_wrap div.user_pic_area img { z-index:5; }
+.center_msr_wrap p.msr_user_mask { background:url("Assets/Images/Common/msr_user_mask.png"); left:0; position:absolute; top:0; z-index:6; }
+
+.center_msr_wrap p.user_greet_txt { color:#fff; float:left; }
+
+.center_msr_wrap p.msr_btn_setting { float:left; }
+.center_msr_wrap p.msr_btn_setting a { border:1px solid #fff; border-radius:3px; color:#fff; display:block; height:100%; text-align:center; width:100%; -webkit-transition:background-color .7s, color .7s; transition:background-color .7s, color .7s; }
+.center_msr_wrap p.msr_btn_setting a:hover { background:#fff; color:#222; font-weight:bold; }
+
+.center_msr_wrap div.user_level { float:left; }
+.center_msr_wrap p.level_star_bg { background:url("Assets/Images/Common/msr_star_bg.png"); color:#fff; float:left; font-weight:normal; text-align:center; }
+.center_msr_wrap p.user_level_txt { color:#fff; float:left; font-weight:normal; }
+
+.center_msr_wrap div.msr_card_info,
+.center_msr_wrap p.msr_card_area { float:left; }
+.center_msr_wrap p.msr_card_area img { width:100%; }
+.center_msr_wrap p.card_info_txt { color:#fff; float:left; }
+
+/* 150518 문진욱 - 수정 end */
+
+#beanWrap { background:url("Assets/Images/Main/autumn/autumn_mood.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+.bean_icon01 { background:url("Assets/Images/Main/bean_icon01.png") no-repeat; height:283px; left:130px; position:absolute; top:40px; width:285px; z-index:7; }
+.bean_icon02 { background:url("Assets/Images/Main/bean_icon02.png") no-repeat; height:216px; left:220px; position:absolute; top:390px; width:216px; z-index:7; }
+.bean_icon03 { background:url("Assets/Images/Main/bean_icon03.png") 0 0 no-repeat; height:324px; left:876px; position:absolute; top:506px; width:321px; z-index:7; }

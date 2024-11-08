@@ -1,6 +1,6 @@
 import React from 'react';
 import 'Styles/Style.css';
-import 'Styles/Style_block_popup.css';
+import 'Styles/Style_Block_Popup.css';
 import 'Styles/Reset.css';
 
 function Header() {
