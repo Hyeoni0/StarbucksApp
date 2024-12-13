@@ -830,7 +830,7 @@ table.vod_tb_ag tbody td:last-child{border-right:0}
   .sub_gnb_wrap_inner h1.logo { height:75px; top:22px; width:75px; z-index:12; } /* 150706 수정 */
 
   .sdown_gnb_wrap_inner nav.util_nav,
-  .sub_gnb_wrap_inner nav.util_nav { height:20px; right:93px; top:15px; width:464px; }
+  .sub_gnb_wrap_inner nav.util_nav { height:20px; right:93px; top:15px; /*width:464px;*/ }
   .sdown_gnb_wrap_inner nav.util_nav ul li,
   .sub_gnb_wrap_inner nav.util_nav ul li { height:20px; }
   .sdown_gnb_wrap_inner nav.util_nav ul li a,
